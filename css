@@ -1,0 +1,183 @@
+DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport">
+content="width=device-width,intial-scale=1.o">
+ <title>
+   practical No.4 Javascript Basics,function and events
+</title>
+ 
+<style>
+  body
+ { font family:Arial,Helveitcea,sans-serif;
+
+     background:#f5f5f5;
+      margin:30px;
+}
+ .container{
+            width:700px;
+            margine:auto;
+           background:white
+            padding:20x
+            box-shadow:10px;
+
+   }
+   h1,h2
+{
+  text-elign:center;
+  colur:darkblue;
+}
+ 
+button{
+   padding10px20px;
+    margin:10px;
+    cursor:pointer;
+   }
+ input
+{ width:95%;
+ padding:10px;
+ margin:8px 0;
+ }
+#result {
+
+margin-top20px;
+background:#eeeeee;
+padding:15px;
+border-radius:5px;
+}
+
+#mouseover Text
+{
+font size:22px;
+color:black;
+
+}
+
+</style>
+<script>
+
+function calculate()
+{
+  let num1=10;
+  let num2=20;
+  
+  let add=num1+num2;
+  let sub=num1-num2;
+  let mul=num1*num2;
+  let div=num1/num2;
+ 
+let output="";
+
+output+"number1="+num1+"<br>";
+outout+"number2="+"num2+"<br><>br";
+
+output="Addition="+add+"<br>";
+output="substaction="+sub+"<br>";
+output+="multiplication="+mul"+<br>";
+output+="divison="+div"+"<br><br>";
+ 
+
+if(num1>num2)
+{
+
+output+="20 is greater than 10<br><br>";
+} 
+else
+{
+"10 is greater<br><br>";
+
+}
+  
+
+output+="Numbers fron1 to 10<br>";
+ for(let i= 1;i<=10;i++)
+  {
+    output+=i"";
+  }
+   
+document.getElementByld("result").in nerHTML=ouyput;
+
+
+}
+ function welcome()
+{
+ alert("Welcome to javascript practical");
+
+}
+
+function normalcolor()
+{
+document.getElementByld("mouseeover Text").style.colur="black";
+
+}
+
+function valid form()
+{
+
+ let name=document.getElementnyld("name").value;
+  let email=document.getElementnyld("email").value;
+ let mobile=document.getElementnyld("mobile").value;
+ let password=document.getElementnyld("password").value;
+ 
+if(name=="")
+{
+alert("Enter name";)
+return false;
+
+}
+
+if()
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
